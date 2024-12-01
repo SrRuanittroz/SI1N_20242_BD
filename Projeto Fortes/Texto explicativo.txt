@@ -1,0 +1,49 @@
+Empresas e SISTEMA_DE_GESTAO_INTEGRADO 
+
+O banco armazena dados básicos das empresas, como nome, CNPJ, endereço e telefone. Além disso, guarda informações sobre os sistemas de gestão que elas utilizam, como o nome do sistema, o que ele faz e quando foi implementado. 
+
+ 
+
+DONATARIO 
+
+Cada empresa tem seus funcionários cadastrados com detalhes como nome, cargo, departamento, salário, e se ainda trabalham lá. É uma forma de acompanhar quem está na equipe e organizar as funções dentro da empresa. 
+
+ 
+
+PROJETO_SOCIAL 
+
+As empresas podem criar projetos sociais para ajudar a comunidade. Esses projetos têm informações como nome, descrição, tema e status (se estão ativos ou não). Assim, é possível acompanhar os objetivos e impactos desses projetos. 
+
+  
+
+MONITORAMENTO_EDITAL 
+
+Se os projetos precisam passar por editais, o sistema guarda as avaliações. Ele mostra a data da avaliação, o que foi analisado e se o edital foi aprovado, rejeitado ou ainda está pendente. 
+
+DOACAO 
+
+Doadores são cadastrados no sistema, seja pessoa física ou jurídica. O banco também registra as doações, especificando o tipo (financeira ou material), o valor, a data e qual projeto recebeu a contribuição. Assim, você consegue rastrear de onde veio cada recurso. 
+
+ 
+
+FORMULARIO_CADASTRO 
+
+Antes de aceitar um doador, o sistema verifica se ele enviou a documentação necessária. O status (pendente, aprovado ou rejeitado) é registrado, garantindo que todos os doadores estejam dentro das regras. 
+
+ 
+
+ADMINISTRADOR 
+
+Os administradores, que cuidam do funcionamento do sistema, também têm seus dados registrados, como nome, cargo e CPF. Eles são os responsáveis por manter tudo em ordem. 
+
+ 
+
+Tabelas de Relacionamento 
+
+Cada empresa pode ter vários sistemas de gestão e funcionários. 
+
+Projetos sociais estão ligados às empresas e podem receber doações de diferentes doadores. 
+
+Editais estão associados aos projetos sociais. 
+
+Administradores podem gerenciar tanto os sistemas quanto os projetos e as doações.
